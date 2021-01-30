@@ -16,7 +16,7 @@ public class TeamView {
     public void enterMainMenu(){
         boolean flag = true;
         do {
-            System.out.println("ID\t姓名\t年龄\t工资\t职位\t状态\t奖金\t股票\t领用设备");
+            System.out.println(" ID\t姓名\t年龄\t工资\t职位\t状态\t奖金\t股票\t领用设备");
             listAllEmployees();
             System.out.println("--------------");
             System.out.print("1-团队列表 2-添加团队成员 3-删除团队成员 4-退出 请选择（1-4）：");
